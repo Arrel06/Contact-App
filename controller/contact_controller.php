@@ -15,6 +15,11 @@ class ContactController {
             header('Location: '.BASEURL.'dashboard');
         }
     }
+
+    static function showData() {
+        $list = Contact::select();
+        return $list;
+    }
 }
 
 ?>

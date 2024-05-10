@@ -35,7 +35,6 @@ class Contact {
         $stmt->execute([$id]);
     }
 
-
 }
 
 ?>
